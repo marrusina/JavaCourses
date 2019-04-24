@@ -1,5 +1,7 @@
 package ru.java.courses;
 
+import java.sql.SQLOutput;
+
 public class Lesson4_FlowControl {
 
     /**
@@ -48,7 +50,7 @@ public class Lesson4_FlowControl {
      * % - остаток от деления i на k
      * <p>
      * Как мы помним, на 0 делить нельзя. В этом случае просто возвращаем 0.
-     *
+     * <p>
      * Подсказка: переданный символ операции может быть не из списка выше
      *
      * @param i         первый числовой параметр
@@ -89,5 +91,8 @@ public class Lesson4_FlowControl {
             }
 
         return result;
+
+
+
     }
 }
